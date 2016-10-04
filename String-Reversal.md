@@ -5,6 +5,7 @@
 using namespace std;
 int main()
 {
+
 	string word = "";
 
 	cout << "Input a Phrase: ";
