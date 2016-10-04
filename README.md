@@ -7,7 +7,7 @@ int main()
 {
 	string word = "";
 
-	cout << "Input a Phrase to be encoded: ";
+	cout << "Input a String: ";
 	//cin >> word;
 	getline(cin, word);
 
