@@ -10,7 +10,6 @@ int main(){
 	string output;
 	ifstream file;
 	file.open("h:\\text.txt");
-	//char output[100];
 	while (!file.eof()) {
 		if (file.peek() == '\n')
 			cout << endl;
