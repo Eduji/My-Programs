@@ -1,0 +1,13 @@
+#include <Windows.h>
+#include <iostream>
+#include <string>
+#include <sstream>
+#include <fstream>
+#pragma comment(lib, "Winmm.lib")
+
+using namespace std;
+int main(){
+  PlaySound("E:\\Media\\Music\\06_Bad_Reputation.wav", NULL, SND_FILENAME);
+	system("PAUSE");
+	return 0;
+}
